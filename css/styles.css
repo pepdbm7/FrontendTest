@@ -1,0 +1,139 @@
+body{
+    background-color: rgb(240, 240, 240);
+    font-family: Arial;
+    font-size: 18px;
+}
+
+.root{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    height: 80%;
+    padding: 40px;
+    padding-top: 45px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 7px 12px 35px 0px grey;
+    width: 50%;
+    margin-top: 100px;
+}
+
+/* form inputs */
+.search__input{
+    width: 80%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 6px;
+}
+
+.search__button{
+    padding: 8px 10px;
+    font-weight: 600;
+    min-width: fit-content;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+
+/* user info container */
+
+.user__container{
+    display: flex;
+    margin-top: 20px;
+}
+
+.image__container {
+    width: 40%;
+    margin-right: 15px;
+}
+
+.image__container img {
+    width: 80%;
+    max-width: 230px;
+    min-width: 120px;
+    border: none;
+    border-radius: 3px;
+}
+
+.user__fullName{
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0;
+}
+
+.user__username{
+    font-style: italic;
+    margin: 0;
+}
+
+.user__bio{
+    font-size: 15px;
+    width: 85%;
+}
+
+
+
+/* repositories */
+.repo__title{
+    padding-bottom: 15px;
+    border-bottom: 3px solid #1d1d1d;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    display: flex;
+    padding: 0px 15px;
+    border-bottom: 1px solid darkgrey;
+}
+
+
+.repo__details{
+    display: flex;
+    width: 100%;
+    font-weight: 700;
+}
+
+.repo__stars{
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.repo__forks{
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.repo__forks__icon{
+    height: 20px;
+    width: 20px;
+}
+
+.repo__stars__icon{
+    height: 20px;
+    width: 20px;
+}
+
+.repo__details p {
+    margin-left: 8px;
+}
+
+
+/* error message */
+.error__message{
+    background-color: #F9DEDE;
+    color : rgb(209, 77, 77);
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(209, 77, 77)
+}

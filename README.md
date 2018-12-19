@@ -1,4 +1,7 @@
-# FrontendTest
+# FrontendTest  
+
+## View Documentation
+[Documentation](./doc)
 
 ## GOALS
 
